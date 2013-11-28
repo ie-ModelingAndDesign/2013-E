@@ -21,6 +21,7 @@
 		6A74A452183E38E400401918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74A434183E38E400401918 /* UIKit.framework */; };
 		6A74A45A183E38E400401918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A74A458183E38E400401918 /* InfoPlist.strings */; };
 		6A74A45C183E38E400401918 /* MySecondAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A74A45B183E38E400401918 /* MySecondAppTests.m */; };
+		6A863BFC1846474800FA56D4 /* ness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A863BFB1846474800FA56D4 /* ness.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6A74A457183E38E400401918 /* MySecondAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySecondAppTests-Info.plist"; sourceTree = "<group>"; };
 		6A74A459183E38E400401918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A74A45B183E38E400401918 /* MySecondAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySecondAppTests.m; sourceTree = "<group>"; };
+		6A863BFB1846474800FA56D4 /* ness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ness.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		6A74A436183E38E400401918 /* MySecondApp */ = {
 			isa = PBXGroup;
 			children = (
+				6A863BFB1846474800FA56D4 /* ness.jpg */,
 				6A74A43F183E38E400401918 /* AppDelegate.h */,
 				6A74A440183E38E400401918 /* AppDelegate.m */,
 				6A74A442183E38E400401918 /* Main.storyboard */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A863BFC1846474800FA56D4 /* ness.jpg in Resources */,
 				6A74A449183E38E400401918 /* Images.xcassets in Resources */,
 				6A74A43B183E38E400401918 /* InfoPlist.strings in Resources */,
 				6A74A444183E38E400401918 /* Main.storyboard in Resources */,
@@ -460,6 +464,7 @@
 				6A74A461183E38E400401918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A74A462183E38E400401918 /* Build configuration list for PBXNativeTarget "MySecondAppTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				6A74A464183E38E400401918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
