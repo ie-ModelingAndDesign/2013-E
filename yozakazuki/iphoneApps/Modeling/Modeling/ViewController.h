@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (void)action;
+- (void)changeImage:(id)imageView;
 
 @end
+
+UIImageView *kirinIV;
+UIImageView *lionIV;
+
+float kirinX, kirinY, lionX, lionY;
+
