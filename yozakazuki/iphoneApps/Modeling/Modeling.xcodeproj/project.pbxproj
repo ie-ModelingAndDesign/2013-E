@@ -22,9 +22,7 @@
 		6A863C331846DBB500FA56D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A863C311846DBB500FA56D4 /* InfoPlist.strings */; };
 		6A863C351846DBB500FA56D4 /* ModelingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A863C341846DBB500FA56D4 /* ModelingTests.m */; };
 		6A863C431846E23800FA56D4 /* kirin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A863C3F1846E23800FA56D4 /* kirin.png */; };
-		6A863C441846E23800FA56D4 /* kirin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A863C401846E23800FA56D4 /* kirin@2x.png */; };
 		6A863C451846E23800FA56D4 /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A863C411846E23800FA56D4 /* lion.png */; };
-		6A863C461846E23800FA56D4 /* lion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A863C421846E23800FA56D4 /* lion@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +56,7 @@
 		6A863C321846DBB500FA56D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A863C341846DBB500FA56D4 /* ModelingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelingTests.m; sourceTree = "<group>"; };
 		6A863C3F1846E23800FA56D4 /* kirin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kirin.png; sourceTree = "<group>"; };
-		6A863C401846E23800FA56D4 /* kirin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kirin@2x.png"; sourceTree = "<group>"; };
 		6A863C411846E23800FA56D4 /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
-		6A863C421846E23800FA56D4 /* lion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lion@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,9 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				6A863C3F1846E23800FA56D4 /* kirin.png */,
-				6A863C401846E23800FA56D4 /* kirin@2x.png */,
 				6A863C411846E23800FA56D4 /* lion.png */,
-				6A863C421846E23800FA56D4 /* lion@2x.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -250,9 +244,7 @@
 			files = (
 				6A863C221846DBB500FA56D4 /* Images.xcassets in Resources */,
 				6A863C431846E23800FA56D4 /* kirin.png in Resources */,
-				6A863C461846E23800FA56D4 /* lion@2x.png in Resources */,
 				6A863C141846DBB500FA56D4 /* InfoPlist.strings in Resources */,
-				6A863C441846E23800FA56D4 /* kirin@2x.png in Resources */,
 				6A863C1D1846DBB500FA56D4 /* Main.storyboard in Resources */,
 				6A863C451846E23800FA56D4 /* lion.png in Resources */,
 			);
@@ -484,6 +476,7 @@
 				6A863C3A1846DBB500FA56D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A863C3B1846DBB500FA56D4 /* Build configuration list for PBXNativeTarget "ModelingTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +485,7 @@
 				6A863C3D1846DBB500FA56D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
