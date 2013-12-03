@@ -49,14 +49,10 @@
     [self.view addSubview:kirinIV];
     [self.view addSubview:lionIV];
     
-//    // 動かす
-//    CGRect frame = lionIV.frame;
-//    frame.origin.x += 1.0;
-//    [kirinIV setFrame:frame];
-    
     
     /* 移動 */
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"position"];
+    
     
     // アニメーションのオプションを設定
     animation.duration = 1.5; // アニメーション速度
