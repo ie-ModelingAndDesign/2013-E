@@ -111,14 +111,13 @@
     
     // 当たり判定
     float kyori = (kirinX-lionX)*(kirinX-lionX) + (kirinY-lionY)*(kirinY-lionY);
-    NSLog(@"kyori:%.1f", kyori);
     
-//    if(kyori < 50.0*50.0){
-//        NSLog(@"ATARI:%.1f", kyori);
-//    }
-//    else {
-//        NSLog(@"HAZURE:%.1f", kyori);
-//    }
+    if(kyori < 50.0*50.0){
+        NSLog(@"ATARI:%.1f", kyori);
+    }
+    else {
+        NSLog(@"HAZURE:%.1f", kyori);
+    }
     
 }
 
