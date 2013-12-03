@@ -34,7 +34,7 @@
     CGRect rect = CGRectMake(125, 250, 50, 50);
     kirinIV = [[UIImageView alloc]initWithFrame:rect];
     
-    CGRect rect1 = CGRectMake(0, 400, 50, 50);
+    CGRect rect1 = CGRectMake(0, 375, 50, 50);
     lionIV = [[UIImageView alloc]initWithFrame:rect1];
     
     
@@ -49,6 +49,12 @@
     [self.view addSubview:kirinIV];
     [self.view addSubview:lionIV];
     
+//    // 動かす
+//    CGRect frame = lionIV.frame;
+//    frame.origin.x += 1.0;
+//    [kirinIV setFrame:frame];
+    
+    
     /* 移動 */
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"position"];
     
@@ -62,7 +68,7 @@
     
     // アニメーションを追加
     [lionIV.layer addAnimation:animation forKey:@"move-layer"];
-    
+
     
     // ボタンの作成と設定
     UIButton *MeteoButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
@@ -91,6 +97,10 @@
     center = kirinIV.center;
     kirinX = center.x;
     kirinY = center.y;
+    
+    center = lionIV.center;
+    lionX = center.x;
+    lionY = center.y;
 
     NSLog(@"kirinX:%.f", kirinX);
     NSLog(@"kirinY:%.f", kirinY);
@@ -99,7 +109,7 @@
     NSLog(@"lionY:%.f", lionY);
 
     
-    //当たり判定
+    // 当たり判定
     float kyori = (kirinX-lionX)*(kirinX-lionX) + (kirinY-lionY)*(kirinY-lionY);
     NSLog(@"kyori:%.1f", kyori);
     
