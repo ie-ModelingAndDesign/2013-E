@@ -83,7 +83,7 @@
     NSLog(@"ボタンがおされました");
     UIImageView *uiImageView = (UIImageView*)[self.view viewWithTag:10];
     uiImageView.image = [UIImage imageNamed:@"kirin.png"];
-    uiImageView.frame = CGRectMake(125, 375, 50, 50);
+    uiImageView.frame = CGRectMake(125, 350, 50, 50);
     [self.view addSubview:uiImageView];
     
     // 0.1秒遅れて、changeImageメソッドを呼び出す
@@ -94,13 +94,15 @@
     kirinX = center.x;
     kirinY = center.y;
     
-    center = lionIV.center;
-    lionX = center.x;
-    lionY = center.y;
+    CALayer *mLayer = [lionIV.layer presentationLayer];
+    lionX = mLayer.position.x;
+    lionY = mLayer.position.y;
+    
+//    NSLog(@"¥n presentationLayer x:%f, y:%f", mLayer.position.x, mLayer.position.y);
 
     NSLog(@"kirinX:%.f", kirinX);
     NSLog(@"kirinY:%.f", kirinY);
-    
+
     NSLog(@"lionX:%.f", lionX);
     NSLog(@"lionY:%.f", lionY);
 
