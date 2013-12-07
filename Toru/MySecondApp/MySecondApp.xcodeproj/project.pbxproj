@@ -25,6 +25,8 @@
 		256E24B9183D98B400CFEEA0 /* MySecondAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E24B8183D98B400CFEEA0 /* MySecondAppTests.m */; };
 		256E24C7183DA7E900CFEEA0 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E24C6183DA7E900CFEEA0 /* ViewController2.m */; };
 		256E24C9183DAF5C00CFEEA0 /* ネス.png in Resources */ = {isa = PBXBuildFile; fileRef = 256E24C8183DAF5C00CFEEA0 /* ネス.png */; };
+		25BF4096185032F800CBF744 /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 25BF4095185032F800CBF744 /* lion.png */; };
+		25BF4098185032FC00CBF744 /* kirin.png in Resources */ = {isa = PBXBuildFile; fileRef = 25BF4097185032FC00CBF744 /* kirin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		256E24C5183DA7E900CFEEA0 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController2.h; path = ../ViewController2.h; sourceTree = "<group>"; };
 		256E24C6183DA7E900CFEEA0 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController2.m; path = ../ViewController2.m; sourceTree = "<group>"; };
 		256E24C8183DAF5C00CFEEA0 /* ネス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ネス.png"; sourceTree = "<group>"; };
+		25BF4095185032F800CBF744 /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
+		25BF4097185032FC00CBF744 /* kirin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kirin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				256E248B183D98B400CFEEA0 /* Products */,
 				256E24C8183DAF5C00CFEEA0 /* ネス.png */,
 				25243FF4184316290063118C /* 火澄.jpeg */,
+				25BF4095185032F800CBF744 /* lion.png */,
+				25BF4097185032FC00CBF744 /* kirin.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,11 +249,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BF4098185032FC00CBF744 /* kirin.png in Resources */,
 				25243FF5184316290063118C /* 火澄.jpeg in Resources */,
 				256E24A6183D98B400CFEEA0 /* Images.xcassets in Resources */,
 				256E2498183D98B400CFEEA0 /* InfoPlist.strings in Resources */,
 				256E24A1183D98B400CFEEA0 /* Main.storyboard in Resources */,
 				256E24C9183DAF5C00CFEEA0 /* ネス.png in Resources */,
+				25BF4096185032F800CBF744 /* lion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,14 @@
 
 @interface ViewController2 : UIViewController
 - (void)action;
-- (void)changeImage:(id)imageView;
-
+- (void)changeImage:(id)NessIV;
+- (void)EnemyMove:(float)EnemyX;
+- (void)changeAnimation:(id)EnemyIV;
 @end
+
+UIImageView *NessIV;
+UIImageView *EnemyIV;
+UIImageView *EnemyIV2;
+CABasicAnimation *animation;
+
+float NessX , NessY , EnemyX , EnemyY;
