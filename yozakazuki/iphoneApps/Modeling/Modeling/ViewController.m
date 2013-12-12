@@ -7,8 +7,8 @@
 @end
 
 @implementation ViewController {
-unsigned int score;
-UILabel *scoreLabel;
+    unsigned int score;
+    UILabel *scoreLabel;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
