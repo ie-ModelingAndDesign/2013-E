@@ -8,14 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
 - (void)action;
-- (void)changeImage:(id)imageView;
-
+- (void)changeImage:(id)NessIV;
+- (void)EnemyMove:(float)EnemyX;
+- (void)changeAnimation:(id)EnemyIV;
 @end
 
-UIImageView *kirinIV;
-UIImageView *lionIV;
+UIImageView *NessIV;
+UIImageView *EnemyIV;
+UIImageView *EnemyIV2;
+CABasicAnimation *animation;
 
-float kirinX, kirinY, lionX, lionY;
-
+float NessX , NessY , EnemyX , EnemyY;
