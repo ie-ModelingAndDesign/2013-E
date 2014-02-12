@@ -25,8 +25,6 @@
 		661F8BBF1848CB810099319C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661F8BBE1848CB810099319C /* SecondViewController.m */; };
 		661F8BC21849BFA30099319C /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661F8BC11849BFA30099319C /* RankViewController.m */; };
 		661F8BC51849F52A0099319C /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661F8BC41849F52A0099319C /* StartViewController.m */; };
-		662D6733186282F500288222 /* cheeter2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 662D672E186282F500288222 /* cheeter2.mp3 */; };
-		667C780F187E464E000FEA9C /* bakuha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 667C780E187E464E000FEA9C /* bakuha.mp3 */; };
 		667C7832187FE009000FEA9C /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 667C782F187FE009000FEA9C /* 1.jpeg */; };
 		667C7834187FE009000FEA9C /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 667C7831187FE009000FEA9C /* 2.jpeg */; };
 		667C7838187FE032000FEA9C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 667C7837187FE031000FEA9C /* icon.png */; };
@@ -46,6 +44,8 @@
 		667C7854187FE054000FEA9C /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 667C7846187FE054000FEA9C /* start.png */; };
 		667C7859187FE48E000FEA9C /* start2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 667C7856187FE48E000FEA9C /* start2.jpeg */; };
 		667C7860188631FC000FEA9C /* ti-ta-.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 667C785F188631FC000FEA9C /* ti-ta-.mp3 */; };
+		E4BF1404188776BC002C9752 /* bakuha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4BF1402188776BC002C9752 /* bakuha.mp3 */; };
+		E4BF1405188776BC002C9752 /* cheeter2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4BF1403188776BC002C9752 /* cheeter2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,8 +85,6 @@
 		661F8BC11849BFA30099319C /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
 		661F8BC31849F52A0099319C /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
 		661F8BC41849F52A0099319C /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
-		662D672E186282F500288222 /* cheeter2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cheeter2.mp3; path = ../test4/test4/cheeter2.mp3; sourceTree = "<group>"; };
-		667C780E187E464E000FEA9C /* bakuha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bakuha.mp3; path = ../test4/test4/bakuha.mp3; sourceTree = "<group>"; };
 		667C782F187FE009000FEA9C /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		667C7831187FE009000FEA9C /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
 		667C7837187FE031000FEA9C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = image/icon.png; sourceTree = "<group>"; };
@@ -106,6 +104,8 @@
 		667C7846187FE054000FEA9C /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
 		667C7856187FE48E000FEA9C /* start2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start2.jpeg; sourceTree = "<group>"; };
 		667C785F188631FC000FEA9C /* ti-ta-.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ti-ta-.mp3"; path = "test4/ti-ta-.mp3"; sourceTree = SOURCE_ROOT; };
+		E4BF1402188776BC002C9752 /* bakuha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bakuha.mp3; path = test4/bakuha.mp3; sourceTree = SOURCE_ROOT; };
+		E4BF1403188776BC002C9752 /* cheeter2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cheeter2.mp3; path = test4/cheeter2.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				667C785F188631FC000FEA9C /* ti-ta-.mp3 */,
-				662D672E186282F500288222 /* cheeter2.mp3 */,
-				667C780E187E464E000FEA9C /* bakuha.mp3 */,
+				E4BF1402188776BC002C9752 /* bakuha.mp3 */,
+				E4BF1403188776BC002C9752 /* cheeter2.mp3 */,
 			);
 			name = Sound;
 			path = ../Sound;
@@ -343,10 +343,9 @@
 				667C7854187FE054000FEA9C /* start.png in Resources */,
 				667C7851187FE054000FEA9C /* kirin.png in Resources */,
 				667C784D187FE054000FEA9C /* 9.jpeg in Resources */,
+				E4BF1405188776BC002C9752 /* cheeter2.mp3 in Resources */,
 				667C784A187FE054000FEA9C /* 6.jpeg in Resources */,
-				667C780F187E464E000FEA9C /* bakuha.mp3 in Resources */,
 				661F8B931848CB590099319C /* InfoPlist.strings in Resources */,
-				662D6733186282F500288222 /* cheeter2.mp3 in Resources */,
 				667C784C187FE054000FEA9C /* 8.jpeg in Resources */,
 				667C7838187FE032000FEA9C /* icon.png in Resources */,
 				661F8B9C1848CB590099319C /* Main.storyboard in Resources */,
@@ -354,6 +353,7 @@
 				667C7850187FE054000FEA9C /* heart.png in Resources */,
 				667C784B187FE054000FEA9C /* 7.jpeg in Resources */,
 				667C7849187FE054000FEA9C /* 5.jpeg in Resources */,
+				E4BF1404188776BC002C9752 /* bakuha.mp3 in Resources */,
 				667C7852187FE054000FEA9C /* lion.png in Resources */,
 				667C7860188631FC000FEA9C /* ti-ta-.mp3 in Resources */,
 				667C7859187FE48E000FEA9C /* start2.jpeg in Resources */,
